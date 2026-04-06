@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "alembic>=1.18.4",
+    "langchain>=1.2.15",
+    "langchain-openai>=1.1.12",
     "notion-client>=3.0.0",
     "pydantic-settings>=2.13.1",
     "python-dotenv>=1.2.2",

@@ -27,4 +27,4 @@ def get_last_tasks_checkpoint():
     ], 
     page_size = 1)
 
-    return record["results"]
+    return record["results"][0]
